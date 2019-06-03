@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
   background-color: #353b43;
+ 
   color: #737f8a;
 }
 
@@ -570,7 +571,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  background-image: url("../images/slider/hero-area.jpg");
+  background-image: url("../images/slider/b2unsplash.jpg");
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -690,6 +691,65 @@ a:focus, a:hover {
   position: absolute;
   z-index: -1;
 }
+
+/*=================================================================
+  Scroll down button section
+==================================================================*/
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+#section05 a {
+  float: right;
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
 
 /*=================================================================
   About us section
