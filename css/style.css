@@ -573,7 +573,7 @@ a:focus, a:hover {
 .hero-area {
   background-image: url("../images/slider/b2unsplash.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 115vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,10 +705,12 @@ a:focus, a:hover {
 }
 
 #section05 a {
+  margin-top: 5vh;
   float: right;
   padding-top: 70px;
 }
 #section05 a span {
+  margin-top: 90vh;
   position: absolute;
   top: 0;
   left: 50%;
@@ -840,6 +842,16 @@ a:focus, a:hover {
 .about-2 .content-block .media h4 {
   font-size: 16px;
   font-weight: 600;
+}
+
+.img-responsive {
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: .5vh;
+}
+
+.welcome {
+  text-align: center;
 }
 
 /*=================================================================
